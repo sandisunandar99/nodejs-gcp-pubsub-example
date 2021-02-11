@@ -24,7 +24,7 @@ module.exports = {
         setTimeout(() => {
             subscriber.removeListener('message', msgHandler);
             console.log(`${msgCount} message(s) received.`);
-        }, timeout * 1000);
+        }, timeout * 500);
     },
 
     pushSubscribeMessages: (payload)=> {

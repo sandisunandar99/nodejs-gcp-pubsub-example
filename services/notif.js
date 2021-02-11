@@ -1,6 +1,7 @@
 const {PubSub} = require('@google-cloud/pubsub')
 const pubsubClient = new PubSub()
-const subscribeName = "latihan-pubsub-notification"
+// const subscribeName = "latihan-pubsub-notification"
+const subscribeName = "subs-lapor-mandiri-submit-pelaporan"
 const timeout = 60;
 const {pullSubscribeMessages, pushSubscribeMessages} = require('../helpers/pubSubHelper')
 

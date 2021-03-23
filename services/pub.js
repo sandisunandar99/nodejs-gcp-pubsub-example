@@ -1,7 +1,7 @@
 const {PubSub} = require('@google-cloud/pubsub')
 const pubsubClient = new PubSub()
-// const topicName = "latihan-pubsub"
-const topicName = "lapor-mandiri-submit"
+const topicName = "latihan-pubsub"
+// const topicName = "lapor-mandiri-submit"
 
 const { publishMessage } = require('../helpers/pubSubHelper')
 

@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node publisher.js",
     "start:pub": "nodemon publisher.js",
+    "start:pub2": "nodemon publisher2.js",
     "start:sub": "nodemon subscriber.js",
     "start:notif": "nodemon notification.js",
     "test": "echo \"Error: no test specified\" && exit 1"
